@@ -1,21 +1,7 @@
 import React from 'react'
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
-import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
-import { FaTwitter, FaGithub,  FaHome } from 'react-icons/fa';
-import headerStyles from "./header.module.css"
-
-
-const NavLiItem = styled(`li`)`
-  color: black;
-  position:center;
-  content-align: center;
-`
-
-const BlackA = styled(`a`)`
-  color: black;
-`
 
 const foot = css`
   margin-top: 2em;
